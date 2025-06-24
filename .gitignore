@@ -80,6 +80,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+banking-mlops-env/
 
 # Spyder project settings
 .spyderproject
@@ -105,20 +106,8 @@ mlflow.db
 mlflow.db.lock
 artifacts/
 
-# Data files
-data/raw/*
-data/processed/*
-data/external/*
-data/interim/*
-!data/.gitkeep
-!data/*/.gitkeep
-
-# Model files
-models/trained/*
-models/artifacts/*
-models/registry/*
-!models/.gitkeep
-!models/*/.gitkeep
+# Temporary files and scripts
+run_setup.bat
 
 # Logs
 logs/
