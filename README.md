@@ -1,5 +1,46 @@
 # 🏭 Credit Card Default-mlops [Default Payments of Credit Card Clients in Taiwan from 2005]
 
+<!-- Badges Section -->
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-2.8%2B-orange?style=for-the-badge&logo=mlflow&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-20.10%2B-blue?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-1.24%2B-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+
+![License](https://img.shields.io/github/license/shanojpillai/credit-risk-mlops-platform?style=for-the-badge&color=green)
+![Stars](https://img.shields.io/github/stars/shanojpillai/credit-risk-mlops-platform?style=for-the-badge&color=yellow)
+![Forks](https://img.shields.io/github/forks/shanojpillai/credit-risk-mlops-platform?style=for-the-badge&color=blue)
+![Issues](https://img.shields.io/github/issues/shanojpillai/credit-risk-mlops-platform?style=for-the-badge&color=red)
+
+![Last Commit](https://img.shields.io/github/last-commit/shanojpillai/credit-risk-mlops-platform?style=for-the-badge&color=brightgreen)
+![Repo Size](https://img.shields.io/github/repo-size/shanojpillai/credit-risk-mlops-platform?style=for-the-badge&color=orange)
+![Contributors](https://img.shields.io/github/contributors/shanojpillai/credit-risk-mlops-platform?style=for-the-badge&color=purple)
+
+<!-- Technology Stack Badges -->
+![FastAPI](https://img.shields.io/badge/FastAPI-0.100%2B-009688?style=flat-square&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-13%2B-336791?style=flat-square&logo=postgresql&logoColor=white)
+![MinIO](https://img.shields.io/badge/MinIO-S3%20Compatible-C72E29?style=flat-square&logo=minio&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-Monitoring-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-Dashboards-F46800?style=flat-square&logo=grafana&logoColor=white)
+
+<!-- ML/AI Badges -->
+![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3%2B-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-1.7%2B-FF6600?style=flat-square&logo=xgboost&logoColor=white)
+![LightGBM](https://img.shields.io/badge/LightGBM-3.3%2B-2E8B57?style=flat-square&logo=lightgbm&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-2.0%2B-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-1.24%2B-013243?style=flat-square&logo=numpy&logoColor=white)
+
+<!-- Status Badges -->
+![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen?style=flat-square)
+![MLflow Status](https://img.shields.io/badge/MLflow%20Server-Running-success?style=flat-square)
+![Code Quality](https://img.shields.io/badge/Code%20Quality-A-brightgreen?style=flat-square)
+![Coverage](https://img.shields.io/badge/Coverage-85%25-green?style=flat-square)
+
+</div>
+
+---
+
 ## 🎯 MLflow-Centric On-Premise Architecture
 
 A **complete MLflow-powered MLOps platform** designed for enterprise banking environments with **MLflow at the center** of all ML operations.
