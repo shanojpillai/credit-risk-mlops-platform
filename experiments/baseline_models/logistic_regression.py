@@ -36,7 +36,7 @@ def load_and_prepare_data():
     """Load and prepare the credit card default dataset"""
     
     # Load data
-    data_path = Path("data/raw/default_credit_card_clients.csv")
+    data_path = Path("mlflow/artifacts/datasets/default_credit_card_clients.csv")
     if not data_path.exists():
         logger.error(f"Dataset not found at {data_path}")
         logger.info("Please run: python scripts/download_dataset.py")

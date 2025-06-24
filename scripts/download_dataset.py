@@ -4,12 +4,10 @@ Download Credit Card Default Dataset from Kaggle
 Dataset: https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset
 """
 
-import os
 import sys
 import pandas as pd
 import requests
 from pathlib import Path
-import zipfile
 import logging
 
 # Setup logging
@@ -36,8 +34,8 @@ def download_file(url: str, destination: str) -> bool:
 def download_credit_card_dataset():
     """Download the credit card default dataset"""
     
-    # Create data directories
-    raw_data_dir = Path("data/raw")
+    # Create data directories (following README structure)
+    raw_data_dir = Path("mlflow/artifacts/datasets")
     raw_data_dir.mkdir(parents=True, exist_ok=True)
     
     # Dataset information
@@ -117,7 +115,7 @@ This dataset is perfect for:
 - MLflow experiment tracking
 """
     
-    info_file = Path("data/raw/dataset_info.md")
+    info_file = Path("mlflow/artifacts/datasets/dataset_info.md")
     with open(info_file, 'w') as f:
         f.write(dataset_info)
     
@@ -135,9 +133,9 @@ def main():
         
         logger.info("✅ Dataset setup completed successfully!")
         logger.info("📁 Files created:")
-        logger.info("   - data/raw/default_credit_card_clients.xls (original)")
-        logger.info("   - data/raw/default_credit_card_clients.csv (processed)")
-        logger.info("   - data/raw/dataset_info.md (documentation)")
+        logger.info("   - mlflow/artifacts/datasets/default_credit_card_clients.xls (original)")
+        logger.info("   - mlflow/artifacts/datasets/default_credit_card_clients.csv (processed)")
+        logger.info("   - mlflow/artifacts/datasets/dataset_info.md (documentation)")
         
         return True
     else:
